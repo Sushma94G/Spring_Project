@@ -44,7 +44,7 @@ public class LogInServlet extends HttpServlet {
     		
     		response.setContentType("text/html");
     		PrintWriter out=response.getWriter();  
-    		out.println("<h1>welcome "+email+"</h1>");
+    		//out.println("<h1>welcome "+email+"</h1>");
     
     		System.out.println("dopost() ended...");
 
