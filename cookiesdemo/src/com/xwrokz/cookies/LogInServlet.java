@@ -40,7 +40,7 @@ public class LogInServlet extends HttpServlet {
     		ck2.setMaxAge(2*60);
     		
     		response.addCookie(ck1);
-    		response.addCookie(ck2);
+    		//response.addCookie(ck2);
     		
     		response.setContentType("text/html");
     		PrintWriter out=response.getWriter();  
