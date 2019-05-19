@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/ls")
 public class LogInServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       //commenting somthing
+       //commenting something
     	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
     		System.out.println("dopost() started...");
